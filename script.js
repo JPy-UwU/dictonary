@@ -25,9 +25,9 @@ btn.addEventListener("click", () => {
         
         sound.setAttribute("src", `https:${data[0].phonetic[0].audio}`);
         })
-        .catch(() => {
-            result.innerHTML = `<h3 class="error">Could not find the word.</h3>`;
-        });
+        // .catch(() => {
+        //     result.innerHTML = `<h3 class="error">Could not find the word.</h3>`;
+        // });
 });
 
 function playSound() {
